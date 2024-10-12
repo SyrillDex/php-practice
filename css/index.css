@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto, Arial;
+}
+.login-form, .sign-up{
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  padding: 24px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+h3{
+  font-family: Pacifico;
+  margin-bottom: 24px;
+  font-size: 2.3rem;
+  font-weight: lighter;
+  background: -webkit-linear-gradient(#833ab4,#fd1d1d,#fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form-input{
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 10px;
+}
+.login-button{
+  background-color: rgba(3, 151, 220, 0.811);
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 85%;
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+.or{
+  font-size: 0.8rem;
+  margin-bottom: 22px;
+  color: grey;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.facebook{
+  margin-bottom: 22px;
+}
+.facebook a{
+  color: #1a66ff;
+  font-weight: 500;
+}
+.forgot-password{
+  font-size: .75rem;
+  color: grey;
+  margin-bottom: 22px;
+}
+.sign-up{
+  margin-top: 10px;
+}
+.sign-up a{
+  color: #1a66ff;
+}
